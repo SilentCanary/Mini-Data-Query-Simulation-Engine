@@ -3,7 +3,7 @@
     import requests
     import os
     
-    HF_API_KEY = "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"
+    HF_API_KEY = "YOUR-HUGGING-FACE-API-KEY "
     API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"  
     HEADERS = {"Authorization": f"Bearer {HF_API_KEY}"}  
     tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
