@@ -1,5 +1,5 @@
 # Mini Data Query Simulation Engine
-The AI-Powered Data Query Simulation Engine is a REST API designed to simulate an AI-powered data query system. It processes natural language queries, converts them into pseudo-SQL using LLM Model(Mistral-7B), validates them, and generates mock responses.
+This is a small ai powered application that processes natural language queries, converts them into pseudo-SQL using LLM Model(Mistral-7B), validates them, and generates mock responses.
 ### 🔄 How It Works:
 1. **Query Input**: You send a query along with the target table name to the Node.js server (e.g., via a curl command).
 2. **Authentication**: The Node.js server authenticates the request using a simple login system with cookies and JWT (JSON Web Tokens).
